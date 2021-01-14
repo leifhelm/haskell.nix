@@ -46,6 +46,7 @@ pkgs:
     "gnome-vfs-module-2.0"               = [ pkgs."gnome-vfs_module" ];
     "gobject-2.0"                        = [ pkgs."glib" ];
     "gobject-introspection-1.0"          = [ pkgs."gobject-introspection" ];
+    "gstreamer-1.0"                      = [ pkgs.gst_all_1."gstreamer" ];
     "gstreamer-audio-0.10"               = [ pkgs."gst-plugins-base" ];
     "gstreamer-audio-1.0"                = [ pkgs."gst-plugins-base" ];
     "gstreamer-base-0.10"                = [ pkgs."gst-plugins-base" ];
